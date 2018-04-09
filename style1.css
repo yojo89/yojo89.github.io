@@ -1,0 +1,174 @@
+
+@import url('https://fonts.googleapis.com/css?family=Overpass+Mono');
+
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	cursor:crosshair;
+	width: 100%;
+	height: 100%;
+	background-color:#ffffff;
+}
+
+ 
+.container {
+	width:50%;
+	height: auto;
+	background-color:white;
+	margin: 0 auto;
+}
+#exit1 {
+	float: right;
+	padding:10px;
+	background-color: yellow;
+	width: 20px;
+	margin-right: 20px;
+	z-index: 999;
+}
+
+#exit2 {
+	float: right;
+	padding:10px;
+	background-color: yellow;
+	width: 20px;
+	margin-right: 20px;
+	z-index: 999;
+}
+
+#exit3 {
+	float: right;
+	padding:10px;
+	background-color: yellow;
+	width: 20px;
+	margin-right: 20px;
+	z-index: 999;
+}
+
+.images {
+	display: block;
+    margin-left: 40%;
+    margin-right: 50%;
+    margin-top: 50%;
+	}
+
+#enter {
+	cursor: pointer;
+}
+
+#popup-index {
+	cursor:crosshair;
+	font-family: 'Overpass Mono', monospace;
+	width:700px;
+	height:400px;
+	background-color: teal;
+	position: absolute;
+	top:200px;
+	left:300px;
+	visibility: hidden;
+}
+
+#popup-index h1 {
+	text-align: center;
+	padding: 20px;
+}
+
+#popup-index ul li {
+	list-style-type: none;
+	padding-left: 20px;
+	font-size: 16pt;
+	color:white;
+	font-weight: bold;
+}
+
+
+#popup-work {
+	font-family: 'Overpass Mono', monospace;
+	width:500px;
+	height:700px;
+	background-color: pink;
+	position: absolute;
+	top:-130px;
+	left:1000px;
+	visibility: hidden;
+}
+
+#container-work {
+        border: 5px solid gray;
+        padding: 5px;
+        background: white;
+        width: 300px;
+        height: 400px;
+        overflow-y: scroll;
+    }
+#popup-work img {
+	align-items: left;
+}
+#popup-work h1 {
+	text-align:center;
+	padding: 20px;
+}
+.container-work {
+	max-width:400px;
+	max-height: 600px;
+	margin: 50 auto;
+	position: absolute;
+}
+
+.images1 {
+	position: static;
+	display: inline-block;
+	width:50%;
+	height:50%;
+	padding-top:20%;
+	
+	}
+
+.images2 {
+	position: static;
+	display: inline-block;
+	max-width:50%;
+	height:50%;
+}
+
+
+.images1 {
+	position: static;
+	display: inline-block;
+	max-height: 50%;
+	max-width: 50%;
+	padding-top:20%;
+	
+	}
+
+#portfolio {cursor: pointer;}
+
+#popup-contact {
+	font-family: 'Overpass Mono', monospace;
+	width:900px;
+	height:150px; 
+	background-color: #B0A2EC;
+	position: absolute;
+	bottom:100;
+	left: 40px;
+	visibility: hidden;
+	cursor: crosshair;
+}
+
+#popup-artist {
+	font-family: 'Overpass Mono', monospace;
+	width:950px;
+	height:200px;
+	background-color: #ffffC6;
+	position: absolute;
+	top:410px;
+	right:0px;
+	visibility: hidden;
+}
+.container-artist {
+	max-width:400px;
+	max-height: 600px;
+	margin: 900 auto;
+	position: absolute;
+}

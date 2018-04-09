@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Johanna Murazzo</title>
+	<link rel="stylesheet" type="text/css" href="style1.css">
+
+	<script type="text/javascript">
+		function popup(){ 
+			document.getElementById("popup-index").style.visibility = "visible"; } 
+	
+		function popup2(){ 
+			document.getElementById("popup-work").style.visibility = "visible"; } 
+
+		function popup3(){ 
+			document.getElementById("popup-artist").style.visibility = "visible"; }
+
+		function popup4(){ 
+			document.getElementById("popup-contact").style.visibility = "visible"; }
+
+		function close(){ 
+			document.getElementById("popup-index").style.visibility = "hidden"; }	
+	</script>
+</head>
+<body>
+	<div class="container">
+	<div class="images">
+
+	<img src="gifbutton/splashenter.gif" alt="ENTER" id="enter" onclick="popup()"></img>
+	
+	<div id="popup-index">
+		<h1>Navigation //</h1>
+
+		<div id="exit1" onClick="close()">[x]</div>
+
+		<ul>
+			<li><id="portfolio" onclick="popup2()">WORK</li> 
+
+	<div id="popup-work">
+			<h1>Work</h1>
+		
+		<div id="exit2" onClick="close()">[x]</div>
+			<div class="container-work">
+
+			<div  class="images1">
+			<img src="img/img1.JPG" width="400" height="300">
+			</div>
+			<div class="images2">
+			<img src="img/img2.JPG" width="400" height="350">
+			</div>
+						<iframe width="400" height="300"></iframe>
+
+
+			<iframe src="https://www.youtube.com/embed/bH2lLbyfvFE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+		
+			</div>
+
+		</div>
+			<li><id="artist" onclick="popup3()">ARTIST</li>
+
+		<div id="popup-artist">
+				<h1>Johanna Murazzo</h1>
+
+				<div class="container-artist">
+					<div class="images3">
+				<img src="img/jojojo.gif">
+				<p> I'm a tattoo artist studying art at SJSU! I like net art and sushi.</p>
+				</div></div>
+		</div>
+			<li><id="contact" onclick="popup4()">CONTACT</li>
+
+		<div id="popup-contact">
+			<a href="mailto:jopielee@artlover.com"><li>jopielee@artlover.com</li></a>
+			<a href="www.instagram.com/jopie_lee"><li>instagram</li></a>
+		</div>
+		</ul>
+	</div>
+	
+
+	</div>
+
+	<div class="footer" position: absolute>
+  <p>(c) Johanna Murazzo, Art 74 Sec 02 Spring 2018</p>
+</div>
+
+
+
+	</div>
+	</div>
+	</div> 
+</body>
+</html>
