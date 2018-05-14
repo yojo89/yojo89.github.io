@@ -158,8 +158,8 @@ body {
 
 #popup-artist {
 	font-family: 'Overpass Mono', monospace;
-	width:450px;
-	height:600px;
+	width:250px;
+	height:900px;
 	background-color: #ffffC6;
 	position: absolute;
 	top:410px;
