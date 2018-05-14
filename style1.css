@@ -37,6 +37,15 @@ body {
 	z-index: 999;
 }
 
+#exit3 {
+	float: right;
+	padding:10px;
+	background-color: yellow;
+	width: 20px;
+	margin-right: 20px;
+	z-index: 999;
+}
+
 .images {
 	display: block;
     margin-left: 40%;
@@ -76,8 +85,8 @@ body {
 
 #popup-work {
 	font-family: 'Overpass Mono', monospace;
-	width:500px;
-	height:900px;
+	width:60%;
+	height:3000px;
 	background-color: pink;
 	position: absolute;
 	top:-130px;
@@ -85,6 +94,14 @@ body {
 	visibility: hidden;
 }
 
+#container-work {
+        border: 5px solid gray;
+        padding: 5px;
+        background: white;
+        width: 300px;
+        height: 400px;
+        overflow-y: scroll;
+    }
 #popup-work img {
 	align-items: left;
 }
@@ -116,33 +133,37 @@ body {
 }
 
 
-.video {
+.images1 {
 	position: static;
-	padding-bottom: 20%;
-}
+	display: inline-block;
+	max-height: 50%;
+	max-width: 50%;
+	padding-top:20%;
+	
+	}
 
 #portfolio {cursor: pointer;}
 
 #popup-contact {
 	font-family: 'Overpass Mono', monospace;
-	width:300px;
-	height:300px;
-	background-color: pink;
+	width:900px;
+	height:150px; 
+	background-color: #B0A2EC;
 	position: absolute;
-	top:200px;
-	left: 100px;
+	bottom:100;
+	left: 40px;
 	visibility: hidden;
 	cursor: crosshair;
 }
 
 #popup-artist {
 	font-family: 'Overpass Mono', monospace;
-	width:950px;
-	height:400px;
+	width:450px;
+	height:600px;
 	background-color: #ffffC6;
 	position: absolute;
 	top:410px;
-	right:0px;
+	right:110px;
 	visibility: hidden;
 }
 .container-artist {

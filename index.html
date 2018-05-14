@@ -14,7 +14,7 @@
 		function popup3(){ 
 			document.getElementById("popup-artist").style.visibility = "visible"; }
 
-			function popup4(){ 
+		function popup4(){ 
 			document.getElementById("popup-contact").style.visibility = "visible"; }
 
 		function close(){ 
@@ -22,6 +22,8 @@
 	</script>
 </head>
 <body>
+		<script src="/js/three.min(1).js"></script>
+		<script src="/js/Detector(1).js"></script>
 	<div class="container">
 	<div class="images">
 
@@ -34,7 +36,7 @@
 
 		<ul>
 			<li><id="portfolio" onclick="popup2()">WORK</li> 
-
+</id="popup-index">
 	<div id="popup-work">
 			<h1>Work</h1>
 		
@@ -42,18 +44,27 @@
 			<div class="container-work">
 
 			<div  class="images1">
-			<img src="img/img1.JPG" width="400" height="300">
+			<img src="/img/img1.JPG" width="400" height="300">
 			</div>
 			<div class="images2">
-			<img src="img/img2.JPG" width="400" height="350">
+			<img src="/img/img2.JPG" width="400" height="350">
 			</div>
-						<iframe width="400" height="300"></iframe>
+
+			<iframe src="index5.html"> </iframe>
+
+				
 
 
-		<div id="video">
 			<iframe src="https://www.youtube.com/embed/bH2lLbyfvFE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+			<br>
+			<iframe src="https://www.youtube.com/embed/lqCOPIyxBWc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+			<br>
+			<iframe src="https://www.youtube.com/embed/LQGd6A7lsPs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+		</id="portfolio">
+		
 			</div>
-			</div>
+		
+	</id="portfolio">
 
 		</div>
 			<li><id="artist" onclick="popup3()">ARTIST</li>
@@ -62,21 +73,29 @@
 				<h1>Johanna Murazzo</h1>
 
 				<div class="container-artist">
-				<img>
-				<p> lorem ipsum</p>
-				</div>
+					<div class="images3">
+				<img src="img/jojojo.gif">
+				<p> I'm a tattoo artist studying in the BFA Pictorial program at a university! For my digital media works, I'm inspired by the times of my childhood, where the world of the web was newer and shiny- and glitchy!</p>
+				</div></div>
 		</div>
-			<li>CONTACT</li>
+			<li><id="contact" onclick="popup4()">CONTACT</li>
+
+		<div id="popup-contact">
+			<a href="mailto:jopielee@artlover.com"><li>jopielee@artlover.com</li></a>
+			<a href="http://www.instagram.com/jopie_lee"><li>instagram</li></a>
+		</div>
 		</ul>
 	</div>
 	
 
 	</div>
 
-	<div id="popup-contact">
+	<div class="footer" position: absolute>
+  <p>(c) Johanna Murazzo, Art 74 Sec 02 Spring 2018</p>
+</div>
 
-
-
+</iframe>
+</iframe>
 	</div>
 	</div>
 	</div> 
